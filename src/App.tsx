@@ -1,6 +1,5 @@
 import { useState } from "react";
 import {
-
   ChevronDown,
   ChevronRight,
   Check,
@@ -8,8 +7,6 @@ import {
   Mail,
   MapPin,
   Smartphone,
-  Camera,
-  Wifi,
   Shield,
   TrendingDown,
   Star,
@@ -19,7 +16,6 @@ import {
 } from "lucide-react";
 import program from "../src/assets/prog.jpeg"
 import solar from "../src/assets/Solar.jpeg"
-import hero from "../src/assets/hero.jpg"
 import { Code2, Sun, BatteryCharging, Zap, Globe } from "lucide-react";
 
 /* ─── TYPES ─────────────────────────────────────────────── */
@@ -74,13 +70,7 @@ const testimonials = [
   },
 ];
 
-const icons = [
-  { Icon: Code2, delay: 0 },
-  { Icon: Sun, delay: 0.2 },
-  { Icon: BatteryCharging, delay: 0.4 },
-  { Icon: Zap, delay: 0.6 },
-  { Icon: Globe, delay: 0.8 },
-];
+
 
 
 /* ─── SUB-COMPONENTS ──────────────────────────────────────── */
