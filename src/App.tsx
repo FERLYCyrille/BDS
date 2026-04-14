@@ -229,6 +229,11 @@ function Hero() {
 function PythonSection() {
   return (
     <section id="formation" className="bg-gray-50 py-20 px-6">
+      <div className="max-w-5xl mx-auto px-6">
+        <div className="text-center mb-10">
+          <h2 className="text-2xl font-bold text-gray-900">Nos Services</h2>
+          <div className="w-12 h-1 bg-red-700 mx-auto mt-2 rounded-full"></div>
+        </div>
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-start">
         {/* Icon placeholder */}
         <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl aspect-video flex items-center justify-center border border-red-100">
