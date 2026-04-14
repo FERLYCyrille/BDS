@@ -510,7 +510,7 @@ function Contact() {
               <Mail size={16} /> Envoyer un email
             </a>
             <a
-              href="https://wa.me/22901925954"
+              href="https://wa.me/2290192595492"
               className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold px-5 py-3 rounded-lg transition-colors text-sm w-fit"
             >
               <MessageCircle size={16} /> Contacter sur WhatsApp
